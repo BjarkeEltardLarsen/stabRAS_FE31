@@ -38,7 +38,7 @@ Create folder for turbulence model (if the folders already exist skip this part)
 
 Move the folder to the user source code
 
-	mv RANS_stableFE31 $WM_PROJECT_USER_DIR/src/turbulence/incompressible/
+	mv stabRAS_FE31 $WM_PROJECT_USER_DIR/src/turbulence/incompressible/
 	
 Go to the directory and compile the turbulence models
 
