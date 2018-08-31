@@ -1,0 +1,5 @@
+OBJECTS = \
+$(OBJECTS_DIR)/kOmegaStab.o\
+$(OBJECTS_DIR)/kOmegaSSTStab.o\
+$(OBJECTS_DIR)/kEpsilonStab.o\
+$(OBJECTS_DIR)/RNGkEpsilonStab.o

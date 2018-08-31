@@ -1,0 +1,13 @@
+# 1 "files"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "files"
+
+
+
+
+kOmegaStab/kOmegaStab.C
+kOmegaSSTStab/kOmegaSSTStab.C
+kEpsilonStab/kEpsilonStab.C
+RNGkEpsilonStab/RNGkEpsilonStab.C
+LIB = $(FOAM_USER_LIBBIN)/libstabRASModels

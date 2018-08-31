@@ -1,0 +1,5 @@
+LOCAL_OBJECTS = \
+kOmegaStab.o\
+kOmegaSSTStab.o\
+kEpsilonStab.o\
+RNGkEpsilonStab.o

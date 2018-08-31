@@ -1,0 +1,5 @@
+SOURCE = \
+kOmegaStab/kOmegaStab.C\
+kOmegaSSTStab/kOmegaSSTStab.C\
+kEpsilonStab/kEpsilonStab.C\
+RNGkEpsilonStab/RNGkEpsilonStab.C
