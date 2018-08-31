@@ -1,0 +1,53 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM Extend Project: Open Source CFD        |
+|  \\    /   O peration     | Version:  1.6-ext                               |
+|   \\  /    A nd           | Web:      www.extend-project.de                 |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      RASProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+
+RASModel        kOmegaStab;
+//RASModel        kOmegaSSTStab;
+//RASModel        kEpsilonStab;
+//RASModel        RNGkEpsilonStab;
+
+
+turbulence      on;
+
+printCoeffs     on;
+
+
+ 
+
+kOmegaStabCoeffs
+{
+  lambda2 0.0;
+}
+
+kOmegaSSTStabCoeffs
+{
+  lambda2 0.0;
+}
+
+kEpsilonStabCoeffs
+{
+  lambda2 0.0;
+}
+
+RNGkEpsilonStabCoeffs
+{
+  lambda2 0.0;
+}
+
+
+// ************************************************************************* //
